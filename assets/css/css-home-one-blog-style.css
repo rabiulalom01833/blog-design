@@ -1,0 +1,349 @@
+ .single_blog {
+     text-align: center;
+ }
+
+ .single_blog_img img {
+     width: 100%;
+     transform: scale(1);
+     transition: all ease 500ms;
+ }
+
+ .single_blog:hover .single_blog_img img {
+     transform: scale(1.5);
+     transition: all ease 500ms;
+ }
+
+ section#blog_wrapper .col-9 {
+     padding: 0 15px;
+ }
+
+ .single_blog_img {
+     overflow: hidden;
+     transform: scale(1);
+     transition: all ease 500ms;
+ }
+
+ .single_blog_details h2 {
+     font-family: 'Karla';
+     font-weight: 900;
+     font-size: 22px;
+ }
+
+ .single_blog_details h1 {
+     font-size: 40px;
+     font-weight: normal;
+     font-family: Exo2;
+     font-style: italic;
+     line-height: 0px;
+ }
+
+ .single_blog_details h1 a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .single_blog_details p {
+     text-align: justify;
+     line-height: 25px;
+ }
+
+ .single_blog_details h4 {
+     color: #a1a1a1;
+     font-size: 14px;
+     font-weight: 100;
+     font-style: italic;
+ }
+
+ a.readmore {
+     border: 1px solid #000;
+     line-height: 40px;
+     padding: 10px 20px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #000;
+     font-weight: 900;
+     transition: all ease 500ms;
+ }
+
+ a.readmore:hover {
+     background: #cccccc;
+     border: 1px solid #cccccc;
+     transition: all ease 500ms;
+ }
+
+ .author_details img {
+     width: 30px;
+     display: inline-block;
+ }
+
+ .author_details h3 {
+     width: 70%;
+     display: inline;
+     position: relative;
+     top: -8px;
+     font-size: 14px;
+     color: #4a4a4a;
+     font-family: 'Lato';
+     font-weight: 500;
+ }
+
+ .comment a {
+     display: block;
+     color: #000;
+     text-decoration: none;
+     font-size: 14px;
+     text-align: right;
+     padding-top: 8px;
+ }
+
+ .blog_post_author {
+     border-bottom: 1px solid;
+     overflow: hidden;
+     border-bottom-style: dashed;
+ }
+
+ .single_related_post h2 {
+     padding-top: 6px;
+     padding-left: 10px;
+ }
+
+ .single_related_post p {
+     padding-left: 10px;
+     padding-bottom: 10px;
+ }
+
+ .single_related_post h2 {
+     font-size: 18px;
+     line-height: 0px;
+ }
+
+ .single_related_post p {
+     color: #a0a0a0;
+     font-size: 14px;
+ }
+
+ .related_post .col-4 {
+     padding: 0;
+     margin-top: 15px;
+ }
+
+ .single_related_post {
+    margin: 0 10px;
+    box-shadow: -1px 0px 2px 0px rgb(0 0 0 / 30%);
+}
+.single_related_post img {
+    width: 100%;
+}
+ .single_blog_box {
+     border-bottom: 1px solid #e8e8e8;
+     margin-bottom: 30px;
+     overflow: hidden;
+     padding-bottom: 30px;
+ }
+
+ /**** Blog Sidebaqr Style ****/
+ .single_widget {
+   
+    overflow: hidden;
+ }
+ .single_widget_title {
+     position: relative; 
+     line-height: 40px;
+ }
+
+ .single_widget_title h2 {
+     font-size: 16px;
+     text-align: center;
+ }
+
+ .catagory_number ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .catagory_number ul li a {
+     text-decoration: none;
+     width: 85%;
+     color: #464646;
+ }
+
+ .catagory_number ul li a span {
+     width: 15%;
+     float: right;
+ }
+
+ .catagory_number ul li span {
+     width: 15%;
+     float: right;
+     color: #464646;
+     font-weight: 600;
+ }
+
+ .catagory_number ul li {
+     border-bottom: 1px solid #e8e8e8;
+     padding: 10px 0;
+ }
+
+ .single_tag ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .single_tag ul li {
+     display: inline-block;
+     border: 1px solid #e8e8e8;
+     padding: 10px 10px;
+     margin: 5px;
+ }
+
+ .single_tag ul li a {
+     color: #a1a1a1;
+     font-size: 14px;
+     text-decoration: none;
+     font-weight: 600;
+ }
+
+ section#blog_wrapper .col-3 {
+     padding: 0 15px;
+ }
+
+ .writter {
+     text-align: center;
+ }
+
+ .writter h2 {
+     line-height: 0px;
+     font-size: 22px;
+     color: #967373;
+ }
+
+ .writter p {
+     font-size: 14px;
+ }
+
+ .writter {
+     border: 1px solid #f1f1f1;
+     padding: 15px;
+ }
+
+ .writter img {
+     width: 90%;
+     border: 10px solid #ccc;
+     border-radius: 100%;
+ }
+
+
+ iframe#instagram-embed-0 { 
+    min-width: 100% !important;
+}
+
+.widget-title{
+
+}
+
+.single_widget_title h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1.8;
+}
+
+.single_widget_title h2:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.single_widget_title h2:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    right: -114%;
+}
+ 
+/* .mobilestyle{
+    position: relative;
+}
+.normal{
+    position: relative;
+}
+.fixsidebar{
+    position: fixed;
+    width: 300px;
+    height: 1001px;
+    z-index: 9999999999999;
+    bottom: 0;
+    overflow-y: scroll;
+} */
+ 
+ @media (max-width: 768px) {
+     .top_right_social_icon {
+         text-align: center;
+     }
+     .bp {
+         padding: 40px 0;
+     }
+     .pt {
+         padding-top: 20px;
+     }
+     .pb {
+         padding-bottom: 20px;
+     }
+     section#header_top_bar {
+         height: auto;
+         text-align: center;
+     }
+     section#top_catagory .col-3 {
+         width: 50%;
+     }
+     .related_post .col-4 {
+         width: 33%;
+     }
+     section#blog_wrapper .col-3 {
+         padding: 0 20% !important;
+     }
+ }
+
+ @media (max-width: 767px) {
+     .bp {
+         padding: 40px 0;
+     }
+     .pt {
+         padding-top: 20px;
+     }
+     .pb {
+         padding-bottom: 20px;
+     }
+ }
+
+ @media (max-width: 479px) {
+     .bp {
+         padding: 40px 0;
+     }
+     .pt {
+         padding-top: 20px;
+     }
+     .pb {
+         padding-bottom: 20px;
+     }
+     section#top_catagory .col-3 {
+         width: 100%;
+     }
+     .related_post .col-4 {
+         width: 100%;
+     }
+     .single_blog_details h1 {
+         font-size: 26px;
+     }
+     section#blog_wrapper .col-3 {
+         padding: 0 10% !important;
+     }
+     .single_blog_details h1 {
+         font-size: 26px !important;
+     }
+ }
